@@ -51,16 +51,28 @@
 
 // for 
 
-string Method4(int count, string c)
-{
-    string result = String.Empty;
-        for (int i = 0; i < count; i++ )
+//string Method4(int count, string c)
+//{
+   // string result = String.Empty;
+       // for (int i = 0; i < count; i++ )
     
-        {
-            result = result + c;
-        }
-    return result;
-}
+        //{
+         //   result = result + c;
+        //}
+    //return result;
+//}
 
-string res = Method4(10, "ASDF ");
-Console.WriteLine(res);
+
+
+//string res = Method4(10, "ASDF ");
+//Console.WriteLine(res);
+
+// Таблица умножения
+
+for (int i = 2; i <= 10; i++)
+{
+    for (int j = 2; j <= 10; j++)
+    {
+        Console.WriteLine($"{i} * {j} = {i*j}");
+    }
+}
